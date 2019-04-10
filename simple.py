@@ -1,7 +1,7 @@
 from scrapy.spider import Spider
 from scrapy.selector import Selector
 from busroutes.items import RouteItem,StopItem,RouteInfoItem,RouteStopItem
-import json
+
 
 class HyderabadRouteSpider(Spider):
 	name = "fetchhydroutes"
